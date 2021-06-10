@@ -49,12 +49,12 @@ function App() {
           <li>AWS</li>
           <li>Google</li>
           <li>Microsoft</li>
+          <li>DgB is ME Fullsack Prodictions</li>
           <li>ORACLE</li>
           <li>SAP</li>
           <li>Adobe</li>
           <li>salesforce</li>
           <li>workday</li>
-          <li>DgB is ME</li>
         </ul>
 
     <h2>🏳️‍🌈Our core Values🏳️‍🌈</h2>
@@ -75,7 +75,7 @@ function App() {
     </div>
 
 
-  );
+  ); add 
 }
 
 export default App;
