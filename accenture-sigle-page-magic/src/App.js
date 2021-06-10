@@ -10,7 +10,7 @@ function App() {
 
       <h1>🌟So it Begins🌟</h1>
       <h2>About Us📖</h2>
-      <p>We create value in all directions.</p>
+      <p>We create value in all ⬆️➡️directions.⬇️⬅️</p>
 
       <p>Working with us, change becomes the most
         dynamic, powerful source of progress you have.</p>
@@ -61,7 +61,7 @@ function App() {
     {/* link to https://www.accenture.com/us-en/about/company/business-ethics */}
 
     <h5>Client value creation</h5>
-    <p>Enabling clients to become high-performance businesses and creating long-term relationships by being responsive and relevant and by consistently delivering value.</p>
+    <p>Enabling clients to become high-performance businesses and creating long-term relationships by being responsive and relevant by consistently delivering value.</p>
     <h5>One global network</h5>
     <p>Leveraging the power of global insight, relationships, collaboration and learning to deliver exceptional service to clients wherever they do business.</p>
     <h5>Respect for the individual </h5>
@@ -71,7 +71,7 @@ function App() {
     <h5>Integrity</h5>
     <p>Being ethically unyielding and honest and inspiring trust by saying what we mean, matching our behaviors to our words and taking responsibility for our actions.</p>
     <h5>Stewardship</h5>
-    <p>Fulfilling our obligation of building a better, stronger and more durable company for future generations, protecting the Accenture brand, meeting our commitment to stakeholders, acting with an owner mentality, developing our people and helping improve communities and the global environment.</p>
+    <p>Fulfilling our obligation of building a better, stronger and more durable company for future generations by protecting the Accenture brand, meeting our commitment to stakeholders, acting with an owner mentality, developing our people and helping improve communities and the global environment.</p>
     </div>
 
 
