@@ -1,11 +1,19 @@
 import './App.css';
-
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 function App() {
   return (
 
     // want a header or navbar here, fancy scroller?
 
     <div class= "BigMommaDiv">
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact />
+        </Switch>
+
+      </Router>
 
       <h1>🌟So it Begins🌟</h1>
       <h2>About Us📖</h2>
@@ -56,21 +64,22 @@ function App() {
           <li>workday</li>
         </ul>
 
-    <h2>🏳️‍🌈Our core Values🏳️‍🌈</h2>
-    {/* link to https://www.accenture.com/us-en/about/company/business-ethics */}
+      <h2>🏳️‍🌈Our core Values🏳️‍🌈</h2>
+      {/* link to https://www.accenture.com/us-en/about/company/business-ethics */}
 
-    <h5>Client value creation</h5>
-    <p>Enabling clients to become high-performance businesses and creating long-term relationships by being responsive and relevant by consistently delivering value.</p>
-    <h5>One global network</h5>
-    <p>Leveraging the power of global insight, relationships, collaboration and learning to deliver exceptional service to clients wherever they do business.</p>
-    <h5>Respect for the individual </h5>
-    <p>Valuing diversity and unique contributions, fostering a trusting, open and inclusive environment and treating each person in a manner that reflects Accenture's values.</p>
-    <h5>Best Humans</h5>
-    <p>Attracting, developing and retaining the best talent for our business, challenging our people, demonstrating a "can-do" attitude and fostering a collaborative and supportive environment.</p>
-    <h5>Integrity</h5>
-    <p>Being ethically unyielding and honest and inspiring trust by saying what we mean, matching our behaviors to our words and taking responsibility for our actions.</p>
-    <h5>Stewardship</h5>
-    <p>Fulfilling our obligation of building a better, stronger and more durable company for future generations by protecting the Accenture brand, meeting our commitment to stakeholders, acting with an owner mentality, developing our people and helping improve communities and the global environment.</p>
+      <h5>Client value creation</h5>
+      <p>Enabling clients to become high-performance businesses and creating long-term relationships by being responsive and relevant by consistently delivering value.</p>
+      <h5>One global network</h5>
+      <p>Leveraging the power of global insight, relationships, collaboration and learning to deliver exceptional service to clients wherever they do business.</p>
+      <h5>Respect for the individual </h5>
+      <p>Valuing diversity and unique contributions, fostering a trusting, open and inclusive environment and treating each person in a manner that reflects Accenture's values.</p>
+      <h5>Best Humans</h5>
+      <p>Attracting, developing and retaining the best talent for our business, challenging our people, demonstrating a "can-do" attitude and fostering a collaborative and supportive environment.</p>
+      <h5>Integrity</h5>
+      <p>Being ethically unyielding and honest and inspiring trust by saying what we mean, matching our behaviors to our words and taking responsibility for our actions.</p>
+      <h5>Stewardship</h5>
+      <p>Fulfilling our obligation of building a better, stronger and more durable company for future generations by protecting the Accenture brand, meeting our commitment to stakeholders, acting with an owner mentality, developing our people and helping improve communities and the global environment.</p>
+
     </div>
 
 
