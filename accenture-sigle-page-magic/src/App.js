@@ -6,7 +6,7 @@ function App() {
 
     // want a header or navbar here, fancy scroller?
 
-    <div class= "BigMommaDiv">
+    <div className= "BigMommaDiv">
       <Router>
         <Navbar />
         <Switch>
