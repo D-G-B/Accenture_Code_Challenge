@@ -1,10 +1,12 @@
 import './App.css';
+import Navbar from './components/Navbar/Index';
+import {BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Accenture Magic</h1>
-    </div>
+    <Router>
+      <Navbar />
+    </Router>
   );
 }
 
