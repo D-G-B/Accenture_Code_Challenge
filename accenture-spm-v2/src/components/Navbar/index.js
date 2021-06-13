@@ -43,20 +43,20 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">Global</NavLinks>
+              <NavLinks to='about'>Global</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="discover">Equality</NavLinks>
+              <NavLinks to='discover'>Equality</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="services">Core Values</NavLinks>
+              <NavLinks to='services'>Core Values</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="signup">Change</NavLinks>
+              <NavLinks to='signup'>Change</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to={{ pathname: "https://www.accenture.com/us-en/about/company-index" }} target="_blank">Learn More</NavBtnLink>
+            <NavBtnLink to={{ pathname: 'https://www.accenture.com/us-en/about/company-index' }} target='_blank'>Learn More</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

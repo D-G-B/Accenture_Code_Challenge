@@ -46,7 +46,7 @@ const CoreValues = () => {
             <CvIcon src={Icon4}/>
             <CvH2>Best people</CvH2>
             <CvP>
-              Attracting, developing and retaining the best talent for our business, challenging our people, demonstrating a "can-do" attitude and fostering a collaborative and supportive environment.
+              Attracting, developing and retaining the best talent for our business, challenging our people, demonstrating a 'can-do' attitude and fostering a collaborative and supportive environment.
             </CvP>
           </CvCard>
           <CvCard>

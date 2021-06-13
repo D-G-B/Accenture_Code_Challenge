@@ -18,13 +18,13 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggle}>Global</SidebarLink>
-          <SidebarLink to="discover" onClick={toggle}>Equality</SidebarLink>
-          <SidebarLink to="services" onClick={toggle}>Core Values</SidebarLink>
-          <SidebarLink to="signup" onClick={toggle}>Change</SidebarLink>
+          <SidebarLink to='about' onClick={toggle}>Global</SidebarLink>
+          <SidebarLink to='discover' onClick={toggle}>Equality</SidebarLink>
+          <SidebarLink to='services' onClick={toggle}>Core Values</SidebarLink>
+          <SidebarLink to='signup' onClick={toggle}>Change</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to={{ pathname: "https://www.accenture.com/us-en/about/company-index" }} target="_blank">Learn More</SidebarRoute>
+          <SidebarRoute to={{ pathname: 'https://www.accenture.com/us-en/about/company-index' }} target='_blank'>Learn More</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
