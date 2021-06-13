@@ -8,12 +8,12 @@ export const CvContainer = styled.div`
   align-items: center;
   background: #010606;
 
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 1000px) {
     height: 1100px;
   }
 
-  @media screen and (max-width: 480px) {
-    height: 1300px;
+  @media screen and (max-width: 769px) {
+    height: 2000px;
   }
 `;
 

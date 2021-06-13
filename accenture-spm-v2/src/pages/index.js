@@ -9,6 +9,7 @@ import {
   homeObjTwo,
 } from '../components/InfoSection/Data';
 import CoreValues from '../components/CoreValues';
+import Footer from '../components/Footer';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,6 +28,7 @@ const Home = () => {
       <InfoSection {...homeObjTwo}/>
       <CoreValues />
       <InfoSection {...homeObjThree}/>
+      <Footer />
     </>
   );
 };

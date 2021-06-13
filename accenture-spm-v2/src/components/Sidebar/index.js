@@ -24,7 +24,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="signup" onClick={toggle}>Change</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/signin">Sign In</SidebarRoute>
+          <SidebarRoute to={{ pathname: "https://www.accenture.com/us-en/about/company-index" }} target="_blank">Learn More</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

@@ -16,7 +16,7 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to='/'>Accntr</NavLogo>
+          <NavLogo to='/'>ACCNTR</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
@@ -35,7 +35,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/signin">Sign In</NavBtnLink>
+            <NavBtnLink to={{ pathname: "https://www.accenture.com/us-en/about/company-index" }} target="_blank">Learn More</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
