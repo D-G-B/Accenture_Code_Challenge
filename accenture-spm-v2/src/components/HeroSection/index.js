@@ -30,9 +30,17 @@ const HeroSection = () => {
           Delivering on the promise of technology and human ingenuity, we embrace the power of change to create 360° value for our clients, people and communities.
         </HeroP>
         <HeroBtnWrapper>
-          <Button to='about' onMouseEnter={onHover} onMouseLeave={onHover}
+          <Button
+          to='about'
+          onMouseEnter={onHover}
+          onMouseLeave={onHover}
           primary='true'
           dark='true'
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact='true'
+          offset={-80}
           >
             Huzzah! {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>

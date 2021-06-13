@@ -29,7 +29,8 @@ const InfoSection = ({
   alt,
   primary,
   dark,
-  dark2
+  dark2,
+  outSideLink,
 }) => {
   return (
     <>
@@ -42,7 +43,9 @@ const InfoSection = ({
             <Heading lightText={lightText}>{headline}</Heading>
             <Subtitle darkText={darkText}>{description}</Subtitle>
             <BtnWrap>
-              <Button to='home'
+              <Button 
+                to={outSideLink}
+                target='_blank'
                 smooth={true}
                 duration={500}
                 spy={true}

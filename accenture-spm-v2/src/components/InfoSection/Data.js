@@ -13,6 +13,8 @@ export const homeObjOne = {
   dark: true,
   primary: true,
   darkText: false,
+  // sadly i am out of time and connot get these links to work. I am sure it is a simple fix but its 2am :(
+  outSideLink:'https://www.accenture.com/us-en/accenture-timeline'
 };
 
 export const homeObjTwo = {
@@ -30,6 +32,7 @@ export const homeObjTwo = {
   dark: false,
   primary: false,
   darkText: true,
+  outSideLink:'https://www.accenture.com/us-en/about/inclusion-diversity/persons-with-disabilities'
 };
 
 export const homeObjThree = {
@@ -47,4 +50,5 @@ export const homeObjThree = {
   dark: false,
   primary: false,
   darkText: true,
+  outSideLink:'https://www.accenture.com/us-en/about/company/how-we-serve-index'
 };
