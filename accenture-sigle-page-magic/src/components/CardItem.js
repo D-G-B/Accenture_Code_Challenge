@@ -8,9 +8,9 @@ function CardItem(props) {
         <Link className='cards__item__link' to={props.path}>
           <figure className='cards__item__pic-wrap' data-category={props.label}>
             <img
+            src={props.src}
             alt='leaf'
             className='cards__item__image'
-            src={props.src}
             />
           </figure>
           <div className='cards__item__info'>
@@ -19,7 +19,7 @@ function CardItem(props) {
         </Link>
       </li>
     </>
-  )
+  );
 }
 
-export default CardItem
+export default CardItem;

@@ -17,7 +17,7 @@ function App() {
 
       </Router>
 
-      <h1>🌟So it Begins🌟</h1>
+      {/* <h1>🌟So it Begins🌟</h1>
       <h2>About Us📖</h2>
       <p>We create value in all ⬆️➡️directions.⬇️⬅️</p>
 
@@ -33,21 +33,21 @@ function App() {
         we work as one team with a common goal—to create
         🔄360°🔄 value by embracing change.</p>
       
-      <h5>Strategy & Consulting</h5> {/* link to https://www.accenture.com/us-en/about/consulting-index  */} 
+      <h5>Strategy & Consulting</h5> link to https://www.accenture.com/us-en/about/consulting-index  
       <p>Envision and execute change at speed and scale.</p>
 
-      <h5>Interactive</h5> {/* https://www.accenture.com/us-en/about/accenture-interactive-index */}
+      <h5>Interactive</h5> https://www.accenture.com/us-en/about/accenture-interactive-index
       <p>Design, build, communicate and run meaningful experiences at the intersection of purpose and innovation.</p>
 
-      <h5>Technology</h5> {/* https://www.accenture.com/us-en/about/technology-index */}
+      <h5>Technology</h5> https://www.accenture.com/us-en/about/technology-index
       <p>Accelerate change across your enterprise to create lasting value.</p>
 
-      <h5>Operations</h5> {/* https://www.accenture.com/us-en/about/operations-index */}
+      <h5>Operations</h5> https://www.accenture.com/us-en/about/operations-index
       <p>Create intelligent new ways to harness change and grow.</p>
 
       <h6>Innovation architecture</h6>
       <p>With our global network of over 100 innovation hubs around the world, we apply industry expertise, diverse skill sets and next-generation technology to each business challenge.</p>
-      <p>🤓7900🤓</p> {/* Make this into a sexy counter button? 'pump it up!' */}
+      <p>🤓7900🤓</p> Make this into a sexy counter button? 'pump it up!'
       <p>Patents pending worldwide</p> 
       
       <h5>Our powerful partner 🌳ecosystem🌳</h5>
@@ -67,7 +67,7 @@ function App() {
         </ul>
 
       <h2>🏳️‍🌈Our core Values🏳️‍🌈</h2>
-      {/* link to https://www.accenture.com/us-en/about/company/business-ethics */}
+      link to https://www.accenture.com/us-en/about/company/business-ethics
 
       <h5>Client value creation</h5>
       <p>Enabling clients to become high-performance businesses and creating long-term relationships by being responsive and relevant by consistently delivering value.</p>
@@ -80,7 +80,7 @@ function App() {
       <h5>Integrity</h5>
       <p>Being ethically unyielding and honest and inspiring trust by saying what we mean, matching our behaviors to our words and taking responsibility for our actions.</p>
       <h5>Stewardship</h5>
-      <p>Fulfilling our obligation of building a better, stronger and more durable company for future generations by protecting the Accenture brand, meeting our commitment to stakeholders, acting with an owner mentality, developing our people and helping improve communities and the global environment.</p>
+      <p>Fulfilling our obligation of building a better, stronger and more durable company for future generations by protecting the Accenture brand, meeting our commitment to stakeholders, acting with an owner mentality, developing our people and helping improve communities and the global environment.</p> */}
 
     </div>
 
