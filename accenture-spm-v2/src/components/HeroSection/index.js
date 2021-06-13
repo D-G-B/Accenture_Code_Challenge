@@ -25,7 +25,7 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/Network-Dark.mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Our Purpose:</HeroH1>
+        <HeroH1>Discover Accenture:</HeroH1>
         <HeroP>
           Delivering on the promise of technology and human ingenuity, we embrace the power of change to create 360° value for our clients, people and communities.
         </HeroP>
