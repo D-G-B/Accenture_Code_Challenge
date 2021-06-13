@@ -63,7 +63,7 @@ export const Topline = styled.p`
 export const Heading = styled.h1`
   margin-bottom: 24px;
   font-size: 48px;
-  line-height: 1.1.%;
+  line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 
@@ -77,7 +77,7 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({darkText}) => (darkText ? '#0101606' : '#fff')};
+  color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
 `;
 
 export const BtnWrap = styled.div`
