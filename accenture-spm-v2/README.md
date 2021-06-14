@@ -2,4 +2,4 @@
 
 # Appreciate your time and effort 🙏 it was super fun to build.
 
-# As always there a a million things i could still improve I hope i get to talk to you about it!
+# As always there are a million things i could still improve I hope i get to talk to you about it!
