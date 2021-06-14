@@ -6,6 +6,8 @@ Please come back later for more 👾
 please look here
 👉accenture-spm-v2
 
+accenture-sigle-page-magic is currently still broken with 🐛 👾 (bugs) i cannot fix yet
+
 ```
 
 
